@@ -1,0 +1,135 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CausalAtom",
+  "type": "object",
+  "required": [
+    "id",
+    "cause",
+    "effect",
+    "confidence",
+    "domain"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{12}$"
+    },
+    "cause": {
+      "type": "string",
+      "minLength": 1
+    },
+    "effect": {
+      "type": "string",
+      "minLength": 1
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "condition": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "mechanism": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "formula": {
+      "type": "string"
+    },
+    "variables": {
+      "type": "object"
+    },
+    "units": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "counterexamples": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "domain": {
+      "type": "string",
+      "minLength": 1
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence_type": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "verification_status": {
+      "enum": [
+        "unverified",
+        "verified",
+        "disputed"
+      ]
+    },
+    "quality_tier": {
+      "enum": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    "identifiability": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "direction_source": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "reversal_condition": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "loop_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "created": {
+      "type": "string"
+    },
+    "updated": {
+      "type": "string"
+    },
+    "tier": {
+      "enum": [
+        "curated",
+        "generated",
+        "derived"
+      ],
+      "description": "溯源分层: 人工/文献策展 | 模型生成 | 程序推导"
+    }
+  }
+}
