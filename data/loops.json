@@ -1,0 +1,82 @@
+[
+ {
+  "id": "L-PNI-01",
+  "kind": "real",
+  "kind_zh": "真实回路·HPA-睡眠-情绪正反馈",
+  "confidence": "medium",
+  "evidence_grade": "B",
+  "note": "慢性应激自我强化：睡眠障碍→HPA失调→情绪调节↓→更高应激负荷",
+  "member_nodes": [
+   "慢性心理应激",
+   "睡眠障碍",
+   "下丘脑-垂体-肾上腺轴持续激活",
+   "皮质醇分泌增加",
+   "皮质醇持续升高",
+   "糖皮质激素受体表达下调",
+   "糖皮质激素抵抗",
+   "下丘脑-垂体-肾上腺轴负反馈失效",
+   "皮质醇昼夜节律扁平化",
+   "情绪调节能力下降"
+  ],
+  "atom_ids": [
+   "b38cac73b230",
+   "0cceeecafef6",
+   "b33bea797334",
+   "5d2e99b744c4",
+   "f85f3b6934b0",
+   "c90fa07d6ba5",
+   "631079132136",
+   "4fdd653ebdaa",
+   "49003df272ad",
+   "924d6ba085df",
+   "5e6e08d0b830"
+  ],
+  "length": 10,
+  "cycle_closed": true,
+  "missing_edges": []
+ },
+ {
+  "id": "L-PNI-02",
+  "kind": "real",
+  "kind_zh": "真实回路·炎症-抑郁双向",
+  "confidence": "medium",
+  "evidence_grade": "A",
+  "note": "双向但不对称：炎症→抑郁较强(0.72)，抑郁→IL-6很弱(r≈0.045-0.097)",
+  "member_nodes": [
+   "慢性低度炎症",
+   "抑郁",
+   "促炎细胞因子白细胞介素6升高"
+  ],
+  "atom_ids": [
+   "199c6b42c969",
+   "04ce3308db19",
+   "6d238c9b2a74"
+  ],
+  "length": 3,
+  "cycle_closed": true,
+  "missing_edges": []
+ },
+ {
+  "id": "L-PNI-03",
+  "kind": "real",
+  "kind_zh": "真实回路·压力-行为-疾病-情绪",
+  "confidence": "medium",
+  "evidence_grade": "A",
+  "note": "含混杂通道：应激经行为风险因素致病，患病后反向加重抑郁，抑郁再生成应激",
+  "member_nodes": [
+   "慢性心理应激",
+   "不健康行为增加",
+   "冠心病",
+   "抑郁"
+  ],
+  "atom_ids": [
+   "855ab986f80d",
+   "8dea5aba0c0f",
+   "8652d7b2e2e9",
+   "b3ac5040f282"
+  ],
+  "length": 4,
+  "cycle_closed": true,
+  "missing_edges": []
+ }
+]
