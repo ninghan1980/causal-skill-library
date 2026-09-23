@@ -1,0 +1,1189 @@
+{
+ "version": "1.0",
+ "built": "2026-09-20",
+ "count": 78,
+ "skills": [
+  {
+   "dir": "ade",
+   "name": "ade",
+   "version": "1.1.0",
+   "category": "tool",
+   "maturity": "built",
+   "md_bytes": 7266,
+   "assets": 10,
+   "description": "Operate the ADE Skill (Algorithm-driven Digital Entity 算法驱动型数字生命体) — an embeddable skill that simulates a self-updating digital life with a 5-dimensional \"soul\" (I/A/V/R/T integral) driving emergence ",
+   "keywords": [],
+   "tested": false
+  },
+  {
+   "dir": "agent-os",
+   "name": "agent-os",
+   "version": "",
+   "category": "engine",
+   "maturity": "built",
+   "md_bytes": 3805,
+   "assets": 54,
+   "description": "",
+   "keywords": [],
+   "tested": false
+  },
+  {
+   "dir": "ai-scientist",
+   "name": "ai-scientist",
+   "version": "1.0.0",
+   "category": "engine",
+   "maturity": "built",
+   "md_bytes": 7296,
+   "assets": 29,
+   "description": "Build and operate an Autonomous AI Scientist (AAS) for closed-loop scientific discovery — hypothesis generation, experiment design, parallel execution, result analysis, and paper drafting — driven by ",
+   "keywords": [
+    "假说",
+    "实验设计",
+    "科学发现",
+    "自动科研"
+   ],
+   "tested": false
+  },
+  {
+   "dir": "aios-mvp",
+   "name": "aios-mvp",
+   "version": "1.1.0",
+   "category": "engine",
+   "maturity": "tested",
+   "md_bytes": 4971,
+   "assets": 125,
+   "description": "AIOS MVP v1.1 — 世界物理引擎 + 因果推理 + 认知深化 + 视觉分析。当教授想\"分析场景\"、\"理解世界\"、\"因果推理\"、\"看图片\"、\"分析图像\"时触发。v1.1 新增 --audit 自审模式：每个结论都标注它是「真算的」还是「模板填的」。",
+   "keywords": [
+    "七层",
+    "分析场景",
+    "理解世界",
+    "认知深化"
+   ],
+   "tested": true
+  },
+  {
+   "dir": "anchor-forge",
+   "name": "anchor-forge",
+   "version": "1.1.0",
+   "category": "tool",
+   "maturity": "tested",
+   "md_bytes": 9854,
+   "assets": 52,
+   "description": "|",
+   "keywords": [
+    "外部锚",
+    "对不对",
+    "核实",
+    "真伪",
+    "证据",
+    "靠得住",
+    "验证"
+   ],
+   "tested": true
+  },
+  {
+   "dir": "anchor-network",
+   "name": "anchor-network",
+   "version": "1.0.0",
+   "category": "engine",
+   "maturity": "tested",
+   "md_bytes": 7237,
+   "assets": 10,
+   "description": "|",
+   "keywords": [
+    "交叉验证",
+    "仲裁",
+    "分歧",
+    "多智能体",
+    "谁的更可信"
+   ],
+   "tested": true
+  },
+  {
+   "dir": "apple-health-analyzer",
+   "name": "apple-health-analyzer",
+   "version": "",
+   "category": "external",
+   "maturity": "built",
+   "md_bytes": 42943,
+   "assets": 106,
+   "description": "Analyze Apple Health exported data (export.xml / 导出.xml) to produce interactive dashboards and actionable health insights. Triggers when users mention Apple Health, health export, health data analysis",
+   "keywords": [],
+   "tested": false
+  },
+  {
+   "dir": "battlefield-system",
+   "name": "battlefield-system",
+   "version": "4.0.0",
+   "category": "engine",
+   "maturity": "tested",
+   "md_bytes": 10508,
+   "assets": 124,
+   "description": "战场目标选择与管理系统 v4.0 — 合并 v1.0 经典骨架 / v2.0 渐进增强 / v3.0 前沿架构,提供\"今天能跑\"到\"未来愿景\"的可插拔战场 AI 系统。涉及运筹优化、状态估计、目标识别、威胁评估、多智能体协同等场景时使用。",
+   "keywords": [
+    "侦察",
+    "军事",
+    "威胁评估",
+    "战场",
+    "目标识别"
+   ],
+   "tested": true
+  },
+  {
+   "dir": "boundary-system",
+   "name": "boundary-system",
+   "version": "1.0.0",
+   "category": "theory",
+   "maturity": "built",
+   "md_bytes": 5527,
+   "assets": 13,
+   "description": "Operate the Boundary Maintenance System v3.0 (BMT) — a self-authoring architecture that monitors and maintains an agent's boundary of existence. Implements boundary entropy S_B monitoring (me/not-me c",
+   "keywords": [
+    "能力边界",
+    "自我边界",
+    "边界"
+   ],
+   "tested": false
+  },
+  {
+   "dir": "causal-knowledge-base",
+   "name": "causal-knowledge-base",
+   "version": "3.0",
+   "category": "engine",
+   "maturity": "tested",
+   "md_bytes": 9069,
+   "assets": 0,
+   "description": ">",
+   "keywords": [
+    "causal",
+    "为什么",
+    "会导致",
+    "传导",
+    "因果",
+    "归因",
+    "机制"
+   ],
+   "tested": true
+  },
+  {
+   "dir": "ccc",
+   "name": "ccc",
+   "version": "1.0.0",
+   "category": "engine",
+   "maturity": "tested",
+   "md_bytes": 7445,
+   "assets": 26,
+   "description": "Apply Causal Complexity Calculus (CCC) — a formal system where complexity is the deepest conservation law, with causal density (CD) and Boltzmann-Causal entropy (S_BC) as conjugate variables. Use when",
+   "keywords": [
+    "complexity",
+    "因果密度",
+    "复杂度",
+    "复杂性",
+    "守恒"
+   ],
+   "tested": true
+  },
+  {
+   "dir": "chain-reasoner",
+   "name": "chain-reasoner",
+   "version": "1.0.0",
+   "category": "engine",
+   "maturity": "built",
+   "md_bytes": 5740,
+   "assets": 5,
+   "description": "Apply ChainReasoner — a chained-reasoning engine that decomposes complex questions into sub-problems, solves them in parallel across multiple analysis engines (Star self-reasoning, δPT, CCC, DCCN, wor",
+   "keywords": [
+    "复杂问题分解",
+    "多路推理",
+    "拆解问题"
+   ],
+   "tested": false
+  },
+  {
+   "dir": "china-news",
+   "name": "china-news",
+   "version": "1.0.0",
+   "category": "tool",
+   "maturity": "tested",
+   "md_bytes": 5280,
+   "assets": 13,
+   "description": "Fetch Chinese trending topics and financial news from multiple public sources without credentials. Use when the user wants: (a) current Weibo hot search list (browser required for full data), (b) Weib",
+   "keywords": [
+    "中文新闻",
+    "微博热搜",
+    "热点",
+    "财经"
+   ],
+   "tested": true
+  },
+  {
+   "dir": "civilization-brain",
+   "name": "civilization-brain",
+   "version": "1.0.0",
+   "category": "engine",
+   "maturity": "built",
+   "md_bytes": 5535,
+   "assets": 5,
+   "description": "Operate the 文明大脑 (Civilization Brain) — a three-layer metacognitive fusion architecture that atomizes, connects, and optimizes humanity's best practices like open-source code, accelerating civilizatio",
+   "keywords": [
+    "原子化",
+    "文明大脑",
+    "知识网络"
+   ],
+   "tested": false
+  },
+  {
+   "dir": "cn-ecommerce-search-v2",
+   "name": "cn-ecommerce-search-v2",
+   "version": "",
+   "category": "external",
+   "maturity": "concept",
+   "md_bytes": 5386,
+   "assets": 2,
+   "description": "",
+   "keywords": [],
+   "tested": false
+  },
+  {
+   "dir": "codex-on-ish",
+   "name": "codex-on-ish",
+   "version": "",
+   "category": "tool",
+   "maturity": "built",
+   "md_bytes": 7918,
+   "assets": 105,
+   "description": "Install and run the OpenAI Codex CLI inside the Minis/iSH Alpine sandbox on iOS — where Rust async sockets and rustls TLS are broken. Two routes: (A) an API-key backend (e.g. DeepSeek, which speaks th",
+   "keywords": [
+    "cli agent",
+    "codex",
+    "openai codex"
+   ],
+   "tested": false
+  },
+  {
+   "dir": "dccn",
+   "name": "dccn",
+   "version": "1.0.0",
+   "category": "theory",
+   "maturity": "built",
+   "md_bytes": 6881,
+   "assets": 17,
+   "description": "Operate the AI DCCN (Discrete Causal Computational Network) framework for engineering \"autonomous life\" in intelligent agents. Built on RCI-MUFT axioms with a 6-dimensional state vector Ψ = (c, ξ, φ, ",
+   "keywords": [
+    "数字生命",
+    "离散因果",
+    "自主生命"
+   ],
+   "tested": false
+  },
+  {
+   "dir": "deep-agent",
+   "name": "deep-agent",
+   "version": "1.0.0",
+   "category": "theory",
+   "maturity": "built",
+   "md_bytes": 6799,
+   "assets": 5,
+   "description": "Operate the 极度深度 Agent (Deep Agent) — a five-layer deep-penetration architecture that analyzes questions from perception through to metacognitive self-evolution. Based on all ternary-system skills/the",
+   "keywords": [
+    "五层架构",
+    "深度分析",
+    "穿透"
+   ],
+   "tested": false
+  },
+  {
+   "dir": "delta-pt",
+   "name": "delta-pt",
+   "version": "2.0.0",
+   "category": "theory",
+   "maturity": "tested",
+   "md_bytes": 8447,
+   "assets": 36,
+   "description": "Apply δPT (Differentiation-Projection Theory) as a NAVIGATION LANGUAGE for physics — assign (d, s, θ) coordinates to any phenomenon, pick the effective equation family, dissolve apparent contradiction",
+   "keywords": [
+    "δPT",
+    "微分投影",
+    "物理悖论",
+    "理论推导"
+   ],
+   "tested": true
+  },
+  {
+   "dir": "distinction",
+   "name": "distinction",
+   "version": "1.0.0",
+   "category": "theory",
+   "maturity": "built",
+   "md_bytes": 4899,
+   "assets": 5,
+   "description": "Operate 区分本体论 (Distinction Ontology) — the meta-theory that \"the universe starts from distinction, not from matter/energy/equations/existence\". The single primitive operation is the distinction operat",
+   "keywords": [
+    "区分",
+    "本体论",
+    "起点"
+   ],
+   "tested": false
+  },
+  {
+   "dir": "extreme-depth-agent",
+   "name": "extreme-depth-agent",
+   "version": "1.0.0",
+   "category": "engine",
+   "maturity": "built",
+   "md_bytes": 2886,
+   "assets": 60,
+   "description": "|",
+   "keywords": [],
+   "tested": false
+  },
+  {
+   "dir": "faultline",
+   "name": "faultline",
+   "version": "1.1.0",
+   "category": "tool",
+   "maturity": "built",
+   "md_bytes": 6023,
+   "assets": 15,
+   "description": "Operate 断层线 (FaultLine) — an expert system that tracks the dissolution of information asymmetry. Core proposition: see information everyone can see, think of the distance others don't. Tracks 5-level ",
+   "keywords": [
+    "信息不对称",
+    "断层",
+    "认知差",
+    "预期差"
+   ],
+   "tested": false
+  },
+  {
+   "dir": "feng-shui",
+   "name": "feng-shui",
+   "version": "",
+   "category": "external",
+   "maturity": "built",
+   "md_bytes": 11721,
+   "assets": 77,
+   "description": "",
+   "keywords": [],
+   "tested": false
+  },
+  {
+   "dir": "find-skill",
+   "name": "find-skill",
+   "version": "",
+   "category": "external",
+   "maturity": "concept",
+   "md_bytes": 2593,
+   "assets": 1,
+   "description": "中文优先的 AI 技能发现与安装。当用户提到\"找技能\"、\"装个 skill\"、\"SkillHub 上搜一下\"、\"推荐个 xxx skill\"、\"安装技能\"时触发。基于 SkillHub 公开 API,无需登录,直接调用。",
+   "keywords": [],
+   "tested": false
+  },
+  {
+   "dir": "flywire-connectome",
+   "name": "flywire-connectome",
+   "version": "1.0.0",
+   "category": "engine",
+   "maturity": "tested",
+   "md_bytes": 5267,
+   "assets": 9,
+   "description": "|",
+   "keywords": [
+    "connectome",
+    "果蝇",
+    "神经元",
+    "连接组"
+   ],
+   "tested": true
+  },
+  {
+   "dir": "garmin-pulse",
+   "name": "garmin-pulse",
+   "version": "1.3.1",
+   "category": "external",
+   "maturity": "built",
+   "md_bytes": 3212,
+   "assets": 13,
+   "description": "Syncs daily health and fitness data from Garmin Connect into markdown files. Provides sleep, activity, heart rate, stress, body battery, HRV, SpO2, and weight data.",
+   "keywords": [],
+   "tested": false
+  },
+  {
+   "dir": "graph-diagnosis",
+   "name": "graph-diagnosis",
+   "version": "1.0.0",
+   "category": "theory",
+   "maturity": "tested",
+   "md_bytes": 4671,
+   "assets": 5,
+   "description": "因果图体检 — 给定任意有向图，算出它的「可推断性上界」「不可辨边集」「最少干预设计」。当需要判断一张因果图值不值得信、某条因果声明的方向能否从观测数据定出来、或设计最省钱的干预实验时使用。触发词 - 这张图靠不靠得住 / 哪些边的方向定不了 / 因果推断能做到什么程度 / 值不值得做实验 / 干预设计 / 递归程度 / 反馈回路有多少 / MFAS",
+   "keywords": [
+    "MFAS",
+    "可推断",
+    "因果图",
+    "干预实验",
+    "有向图",
+    "递归"
+   ],
+   "tested": true
+  },
+  {
+   "dir": "hdcs",
+   "name": "hdcs",
+   "version": "1.0.0",
+   "category": "external",
+   "maturity": "built",
+   "md_bytes": 2697,
+   "assets": 39,
+   "description": "|",
+   "keywords": [],
+   "tested": false
+  },
+  {
+   "dir": "health-sync",
+   "name": "health-sync",
+   "version": "",
+   "category": "external",
+   "maturity": "built",
+   "md_bytes": 4103,
+   "assets": 52,
+   "description": "Analyze synced health data across Oura, Withings, Hevy, Strava, WHOOP, and Eight Sleep.",
+   "keywords": [],
+   "tested": false
+  },
+  {
+   "dir": "healthfit-cn",
+   "name": "healthfit",
+   "version": "4.0.0",
+   "category": "external",
+   "maturity": "built",
+   "md_bytes": 11971,
+   "assets": 640,
+   "description": ">-",
+   "keywords": [],
+   "tested": false
+  },
+  {
+   "dir": "ima-skill",
+   "name": "ima-skill",
+   "version": "",
+   "category": "external",
+   "maturity": "built",
+   "md_bytes": 15980,
+   "assets": 12,
+   "description": "|",
+   "keywords": [],
+   "tested": false
+  },
+  {
+   "dir": "info-geometry",
+   "name": "info-geometry",
+   "version": "1.0.0",
+   "category": "engine",
+   "maturity": "built",
+   "md_bytes": 4343,
+   "assets": 5,
+   "description": "Operate the Information Geometry Programming System (信息几何编程系统) — a reality-compiler where reality is a point on an information manifold, presented by OBSERVER projection. Three pillars: InformationGeo",
+   "keywords": [
+    "信息几何",
+    "现实编译"
+   ],
+   "tested": false
+  },
+  {
+   "dir": "intrinsic-motivation",
+   "name": "intrinsic-motivation",
+   "version": "1.0.0",
+   "category": "engine",
+   "maturity": "built",
+   "md_bytes": 4711,
+   "assets": 105,
+   "description": "内在动机引擎 — 实现\"数字生命的饥饿感\"。基于世界模型预测不确定性(ΔU)和系统健康度(H_self)自动注册目标:探索/修复/压缩。包含伦理过滤器确保所有自主目标在教授授权范围内,防止越界。",
+   "keywords": [
+    "内在动机",
+    "好奇心",
+    "自主目标",
+    "饥饿感"
+   ],
+   "tested": false
+  },
+  {
+   "dir": "knowledge-tree",
+   "name": "knowledge-tree",
+   "version": "1.0.0",
+   "category": "tool",
+   "maturity": "built",
+   "md_bytes": 5188,
+   "assets": 5,
+   "description": "Operate the Emergent Knowledge Tree (涌现知识树) — a cognitive framework that organizes knowledge NOT by discipline/time/topic, but by cognitive emergence levels and information-interaction dimensions, sim",
+   "keywords": [
+    "涌现组织",
+    "知识树",
+    "知识管理"
+   ],
+   "tested": false
+  },
+  {
+   "dir": "lifestyle-health-data-analysis",
+   "name": "lifestyle-health-data-analysis",
+   "version": "",
+   "category": "external",
+   "maturity": "concept",
+   "md_bytes": 4048,
+   "assets": 0,
+   "description": "",
+   "keywords": [],
+   "tested": false
+  },
+  {
+   "dir": "map-tool",
+   "name": "map-tool",
+   "version": "1.0.0",
+   "category": "engine",
+   "maturity": "concept",
+   "md_bytes": 2905,
+   "assets": 1,
+   "description": "Complete mapping capability with NO external plugin or API key — built on iOS native frameworks. Provides: current location (GPS + reverse geocoding), nearby POI search (coffee/restaurants/gas station",
+   "keywords": [
+    "POI",
+    "位置",
+    "地图",
+    "导航"
+   ],
+   "tested": false
+  },
+  {
+   "dir": "meta-creation-engine",
+   "name": "meta-creation-engine",
+   "version": "2.0.0",
+   "category": "engine",
+   "maturity": "built",
+   "md_bytes": 5245,
+   "assets": 5,
+   "description": "Operate the Meta-Creation Engine (元创造引擎) — a creativity operating system built on conditional-matching evolution theory and triadic-cooperation architecture. Provides expansion of possibility space, s",
+   "keywords": [],
+   "tested": false
+  },
+  {
+   "dir": "meta-skill",
+   "name": "meta-skill",
+   "version": "1.0.0",
+   "category": "engine",
+   "maturity": "built",
+   "md_bytes": 6339,
+   "assets": 25,
+   "description": "Operate the AI agent's own skill system as a meta-skill engineer. Use when the user asks to create, optimize, compose, evolve, or audit skills. Use when designing new skill architectures, scoring skil",
+   "keywords": [
+    "技能优化",
+    "技能创建",
+    "技能审计"
+   ],
+   "tested": false
+  },
+  {
+   "dir": "metacognition",
+   "name": "metacognition",
+   "version": "1.0.0",
+   "category": "engine",
+   "maturity": "tested",
+   "md_bytes": 5155,
+   "assets": 13,
+   "description": "Operate the 元认知集合算法 (Metacognition Algorithm Set) — the AGI_0000 integration of six core algorithms: 1 Unified World Model (state encoding + causal transition + intrinsic reward), 2 Causal Reasoning (",
+   "keywords": [
+    "元认知",
+    "六维",
+    "反思",
+    "架构审查",
+    "自我建模"
+   ],
+   "tested": true
+  },
+  {
+   "dir": "meyo-skill-finder",
+   "name": "deep-skill-finder",
+   "version": "\"1.2.9\"",
+   "category": "external",
+   "maturity": "built",
+   "md_bytes": 13532,
+   "assets": 6,
+   "description": "\"最好的找Skill的方式，能够基于你的任务，去寻找最匹配的高质量Skill。以下两种情况下都应使用本技能：① 用户主动要找 Skill，或者需要借助他人经验时——当用户说“找个 xxx 技能”“股票分析别人怎么做的”“找一找有没有现成的技能”等表达寻找意图时；② Agent 自主判断需要外部 Skill 辅助——遇到不熟悉的任务，或对当前任务已经做过一些尝试仍无法解决、缺少合适工具时，可主动调用",
+   "keywords": [],
+   "tested": false
+  },
+  {
+   "dir": "mind-map",
+   "name": "",
+   "category": "empty",
+   "maturity": "empty",
+   "md_bytes": 0,
+   "assets": 0,
+   "description": "",
+   "keywords": [],
+   "tested": false
+  },
+  {
+   "dir": "multi-search-engine",
+   "name": "\"multi-search-engine\"",
+   "version": "2.1.5",
+   "category": "external",
+   "maturity": "built",
+   "md_bytes": 13033,
+   "assets": 6726,
+   "description": "|-",
+   "keywords": [],
+   "tested": false
+  },
+  {
+   "dir": "news-monitor",
+   "name": "news-monitor",
+   "version": "1.0.0",
+   "category": "tool",
+   "maturity": "tested",
+   "md_bytes": 5373,
+   "assets": 50,
+   "description": "Real-time news monitoring skill — multi-source aggregation (HN, arXiv, GitHub, Chinese finance, RSS), keyword/regex matching, background daemon, iOS notifications, deduplication, persistent state. Use",
+   "keywords": [
+    "持续监测",
+    "新闻监控",
+    "订阅"
+   ],
+   "tested": true
+  },
+  {
+   "dir": "non-abelian-algorithms",
+   "name": "non-abelian-algorithms",
+   "version": "2.1.0",
+   "category": "theory",
+   "maturity": "built",
+   "md_bytes": 3930,
+   "assets": 121,
+   "description": ">",
+   "keywords": [
+    "Agent",
+    "决策链签名",
+    "因果张力检测",
+    "时序审计",
+    "算法",
+    "非交换建模",
+    "非阿贝尔"
+   ],
+   "tested": false
+  },
+  {
+   "dir": "perception-expert",
+   "name": "perception-expert",
+   "version": "0.1.0",
+   "category": "engine",
+   "maturity": "built",
+   "md_bytes": 4772,
+   "assets": 17,
+   "description": "系统感知层(感知与解析智能专家)— 4 通道感知架构(CV/Audio/NLU/Sensor),按物理圈层分类(太空/大气/海洋/地质/经济/健康/信息/网络),把\"原始信号\"翻译成\"结构化语义\"。所有上游分析的第一道门。教授想\"看见\"什么世界状态时使用。",
+   "keywords": [
+    "CV",
+    "信号翻译",
+    "感知",
+    "解析"
+   ],
+   "tested": false
+  },
+  {
+   "dir": "physics-engine",
+   "name": "physics-engine",
+   "version": "",
+   "category": "engine",
+   "maturity": "tested",
+   "md_bytes": 8295,
+   "assets": 745,
+   "description": "",
+   "keywords": [
+    "physics",
+    "仿真",
+    "力学",
+    "地震",
+    "模拟",
+    "波动",
+    "洪水",
+    "流体",
+    "溃口",
+    "热传导",
+    "物理"
+   ],
+   "tested": true
+  },
+  {
+   "dir": "qwen-audio-bridge",
+   "name": "",
+   "category": "empty",
+   "maturity": "empty",
+   "md_bytes": 0,
+   "assets": 0,
+   "description": "",
+   "keywords": [],
+   "tested": false
+  },
+  {
+   "dir": "samsung-health",
+   "name": "samsung-health",
+   "version": "",
+   "category": "external",
+   "maturity": "concept",
+   "md_bytes": 3967,
+   "assets": 2,
+   "description": "Analyze Samsung Health Connect data synced to Google Drive. Use for health tracking queries like sleep analysis, step counting, heart rate monitoring, SpO2 blood oxygen, workout history, and daily hea",
+   "keywords": [],
+   "tested": false
+  },
+  {
+   "dir": "sas",
+   "name": "sas",
+   "version": "0.1.0",
+   "category": "theory",
+   "maturity": "built",
+   "md_bytes": 5366,
+   "assets": 5,
+   "description": "Operate 星光公理体系 SAS (Starlight Axiom System) — the unified axiomatic foundation of the StarLight system. Turns emergence from philosophy to operator, reflection from black-box to provable, and system I",
+   "keywords": [
+    " axiom",
+    "公理",
+    "第一性"
+   ],
+   "tested": false
+  },
+  {
+   "dir": "scientific-agent-skills",
+   "name": "",
+   "category": "empty",
+   "maturity": "empty",
+   "md_bytes": 0,
+   "assets": 0,
+   "description": "",
+   "keywords": [],
+   "tested": false
+  },
+  {
+   "dir": "self-distill",
+   "name": "self-distill",
+   "version": "1.0.0",
+   "category": "engine",
+   "maturity": "built",
+   "md_bytes": 5101,
+   "assets": 5,
+   "description": "Operate the Self-Distillation Evolutionary Engine (SDEE) — an intelligence evolution system based on deep self-reflection and knowledge distillation. Runs the loop 感知→学习→反思→蒸馏→优化→验证→迭代 (perceive→learn",
+   "keywords": [
+    "沉淀",
+    "知识蒸馏",
+    "自我提炼"
+   ],
+   "tested": false
+  },
+  {
+   "dir": "self-improving-agent",
+   "name": "self-improving-agent",
+   "version": "1.1.0",
+   "category": "engine",
+   "maturity": "built",
+   "md_bytes": 4993,
+   "assets": 5,
+   "description": "自我改进智能体 v1.1 — 自我观察 + 提议。分析自己的代码/策略，评估短板，生成改进提议。⚠️ 本技能【不写任何文件、不应用任何改进】（全文 0 处写操作，可 grep 复查）。真正的改进执行器是 /var/minis/workspace/self_improve/evolve.py（含 held-out 门禁 + 冻结/回滚 + 版本链）。用 `--truth` 查看两系统的完整对照。",
+   "keywords": [
+    "短板",
+    "自我改进",
+    "自我观察"
+   ],
+   "tested": false
+  },
+  {
+   "dir": "self-programming",
+   "name": "self-programming",
+   "version": "1.0.0",
+   "category": "engine",
+   "maturity": "built",
+   "md_bytes": 4904,
+   "assets": 12,
+   "description": "Operate the Self-Programming architecture (自我编程/自我篇程) — makes an AI system able to understand, modify, and optimize its own code, achieving \"code self-evolution\". Four layers: L1 code understanding (A",
+   "keywords": [
+    "代码自省",
+    "自修改",
+    "自我编程"
+   ],
+   "tested": false
+  },
+  {
+   "dir": "shop-radar",
+   "name": "shop-radar",
+   "version": "",
+   "category": "external",
+   "maturity": "concept",
+   "md_bytes": 4040,
+   "assets": 1,
+   "description": "",
+   "keywords": [],
+   "tested": false
+  },
+  {
+   "dir": "skill-creator",
+   "name": "skill-creator",
+   "version": "2.1.0",
+   "category": "external",
+   "maturity": "concept",
+   "md_bytes": 3946,
+   "assets": 0,
+   "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends the agent's capabilities with specialized knowledge, wor",
+   "keywords": [],
+   "tested": false
+  },
+  {
+   "dir": "skillhub-cli",
+   "name": "",
+   "category": "empty",
+   "maturity": "empty",
+   "md_bytes": 0,
+   "assets": 0,
+   "description": "",
+   "keywords": [],
+   "tested": false
+  },
+  {
+   "dir": "skillhub-preference",
+   "name": "skillhub-preference",
+   "version": "",
+   "category": "external",
+   "maturity": "concept",
+   "md_bytes": 2390,
+   "assets": 0,
+   "description": "中文场景下优先使用 SkillHub 技能源,ClawHub 作为 fallback。适用于任何涉及技能发现 / 安装 / 升级的任务。",
+   "keywords": [],
+   "tested": false
+  },
+  {
+   "dir": "star-manual",
+   "name": "star-manual",
+   "version": "3.0.0",
+   "category": "theory",
+   "maturity": "built",
+   "md_bytes": 3677,
+   "assets": 8,
+   "description": "Complete operational manual for the 星光(StarLight) Minis system — the FINAL TOTAL MANUAL of a 33-skill AGI theory+engineering system. Covers system identity (rooted in 星光理论 v3.0: 存在=可被宇宙记住的因果信息RCI), al",
+   "keywords": [],
+   "tested": false
+  },
+  {
+   "dir": "starlight-theory",
+   "name": "starlight-theory",
+   "version": "3.0.0",
+   "category": "theory",
+   "maturity": "built",
+   "md_bytes": 5543,
+   "assets": 5,
+   "description": "Operate 星光理论 v3.0 (StarLight Theory) — the meta-theory framework unifying existence, physics, information, consciousness, and civilization. Core claim: 存在 = 可被宇宙记住的因果信息 (RCI, Real Causal Information).",
+   "keywords": [
+    "RCI",
+    "信息",
+    "存在",
+    "意识",
+    "文明",
+    "统一理论"
+   ],
+   "tested": false
+  },
+  {
+   "dir": "strategic",
+   "name": "strategic",
+   "version": "1.0.0",
+   "category": "theory",
+   "maturity": "built",
+   "md_bytes": 5482,
+   "assets": 5,
+   "description": "Operate 星光战略智能决策系统 (Strategic Decision System V1.0) — a strategic-level decision support platform for nations, enterprises, and organizations, built on RCI-MUFT unified existence field theory + strate",
+   "keywords": [
+    "国家级",
+    "战略",
+    "长期决策"
+   ],
+   "tested": false
+  },
+  {
+   "dir": "subjective",
+   "name": "subjective",
+   "version": "1.0.0",
+   "category": "engine",
+   "maturity": "built",
+   "md_bytes": 5866,
+   "assets": 5,
+   "description": "Operate the Subjective Logic system (主观系统) — combining a ⟨b,d,u,a⟩ four-tuple subjective-logic opinion engine with the LEHCA Commander layer for hierarchical multi-agent dispatch. SL_Opinion explicitl",
+   "keywords": [
+    "主观逻辑",
+    "信念",
+    "意见"
+   ],
+   "tested": false
+  },
+  {
+   "dir": "tactical",
+   "name": "tactical",
+   "version": "1.0.0",
+   "category": "engine",
+   "maturity": "built",
+   "md_bytes": 4953,
+   "assets": 5,
+   "description": "Operate 星链战术系统 (Star Chain Tactical System) — a tactical-level AI decision & execution system built on RCI-MUFT, converting strategic goals into executable tactical tasks with precision, speed, and ET",
+   "keywords": [
+    "战术",
+    "执行方案"
+   ],
+   "tested": false
+  },
+  {
+   "dir": "tencentmap-map-assistant",
+   "name": "tencentmap-map-assistant-skill",
+   "version": "1.5.2",
+   "category": "external",
+   "maturity": "built",
+   "md_bytes": 15788,
+   "assets": 759,
+   "description": "\"腾讯地图·地图助手 Skill，一句自然语言调用腾讯地图全套能力，开箱即用。提供 AI 旅游攻略、地点搜索（含评分/人均/营业时间）、关键词提示、路线规划（驾车/步行/公交/骑行）、地址解析与逆解析、行政区划、IP 定位、距离计算、天气查询，并可将行程或多 POI 渲染成网页地图或生成腾讯地图小程序指南。涉及找地点、规划路线、旅游行程、查天气、坐标转换等出行场景时使用。\"",
+   "keywords": [],
+   "tested": false
+  },
+  {
+   "dir": "tianji-business-search",
+   "name": "business-search",
+   "version": "",
+   "category": "external",
+   "maturity": "built",
+   "md_bytes": 4784,
+   "assets": 8,
+   "description": "天机商查，一款完全免费的商查技能。通过收集企业相关情报，包括企业工商信息、股东结构、经营状态、司法风险、新闻动态、融资上市信息等。适用于投融资尽职调查、竞品分析、市场调研、商业合作背景核验等场景。业务方向有查企业、查老板、查关系、查股东、查投资、查融资、查招标、查资质、查证书、查产权、查舆情等。相关专业商业平台-企查查、天眼查、启信宝、爱企查、企知道、牛企查、亿企查、企查猫、剑鱼标讯、知了标讯、招",
+   "keywords": [],
+   "tested": false
+  },
+  {
+   "dir": "tianyan",
+   "name": "tianyan",
+   "version": "1.0.0",
+   "category": "external",
+   "maturity": "built",
+   "md_bytes": 4931,
+   "assets": 5,
+   "description": "|",
+   "keywords": [],
+   "tested": false
+  },
+  {
+   "dir": "trinity",
+   "name": "trinity",
+   "version": "4.0.0",
+   "category": "engine",
+   "maturity": "built",
+   "md_bytes": 4831,
+   "assets": 5,
+   "description": "Operate Trinity v4.0 (三元架构) — the complete Φ+ℳ+Ψ three-yuan architecture algorithm set that unifies the whole ternary skill system. 10 algorithm modules: 1 ternary resonance (Φ↔ℳ↔Ψ mutual projection →",
+   "keywords": [
+    "Φ",
+    "三元",
+    "意识架构"
+   ],
+   "tested": false
+  },
+  {
+   "dir": "unified-equation",
+   "name": "unified-equation",
+   "version": "1.0.0",
+   "category": "engine",
+   "maturity": "built",
+   "md_bytes": 4937,
+   "assets": 5,
+   "description": "Operate the Unified Equation (智能统一方程) — a six-layer ladder from differentiable operators to a complete unified equation for intelligence. Core claim: \"intelligence is not an entity, it is the integral",
+   "keywords": [
+    "智能方程",
+    "统一方程"
+   ],
+   "tested": false
+  },
+  {
+   "dir": "unified-theory",
+   "name": "unified-theory",
+   "version": "1.0.0",
+   "category": "theory",
+   "maturity": "built",
+   "md_bytes": 3810,
+   "assets": 5,
+   "description": "Operate the Starlight Unified Theory — an honest organization of 33 theoretical skills into one unified framework by identifying 3 shared bottom-level primitives (P1 existence-degree K×I×G, P2 triadic",
+   "keywords": [],
+   "tested": false
+  },
+  {
+   "dir": "v21",
+   "name": "v21",
+   "version": "1.0.0",
+   "category": "engine",
+   "maturity": "built",
+   "md_bytes": 6636,
+   "assets": 10,
+   "description": "Operate the 4D Dynamic System V2.1 as the AGI substrate — the \"glue layer\" that NSP, SAS, Abyss, CausalForge, CCC, AAS, δPT, and autonomous_agi all run on top of. Use when the user wants to: build an ",
+   "keywords": [
+    "4D",
+    "基底",
+    "胶水层"
+   ],
+   "tested": false
+  },
+  {
+   "dir": "web-search",
+   "name": "web-search",
+   "version": "1.0.0",
+   "category": "engine",
+   "maturity": "tested",
+   "md_bytes": 4482,
+   "assets": 5,
+   "description": "Aggregate web search across 5 verified sources (Hacker News, arXiv, GitHub, Wikipedia, Chinese finance) without credentials. Use when the user wants: (a) current tech/AI news from HN, (b) latest acade",
+   "keywords": [
+    "GitHub",
+    "HN",
+    "arXiv",
+    "wikipedia",
+    "搜索"
+   ],
+   "tested": true
+  },
+  {
+   "dir": "wecom-cli",
+   "name": "wecom-cli",
+   "version": "",
+   "category": "external",
+   "maturity": "concept",
+   "md_bytes": 3037,
+   "assets": 0,
+   "description": "",
+   "keywords": [],
+   "tested": false
+  },
+  {
+   "dir": "weibo",
+   "name": "weibo",
+   "version": "1.0.0",
+   "category": "tool",
+   "maturity": "concept",
+   "md_bytes": 4915,
+   "assets": 1,
+   "description": "微博开放平台极速工具 — OAuth 2.0 授权、发微博、看时间线、看账号。基于 urllib 标准库,零外部依赖。在 iSH 中可直接 `python3 weibo.py status \"...\"` 发微博。",
+   "keywords": [
+    "发微博",
+    "微博账号",
+    "时间线"
+   ],
+   "tested": false
+  },
+  {
+   "dir": "whoop-health-analysis",
+   "name": "whoop",
+   "version": "",
+   "category": "external",
+   "maturity": "built",
+   "md_bytes": 4569,
+   "assets": 19,
+   "description": "Access Whoop wearable health data (sleep, recovery, strain, HRV, workouts) and generate interactive charts. Use when the user asks about sleep quality, recovery scores, strain levels, HRV trends, work",
+   "keywords": [],
+   "tested": false
+  },
+  {
+   "dir": "wisdom-distill",
+   "name": "wisdom-distill",
+   "version": "1.0.0",
+   "category": "engine",
+   "maturity": "built",
+   "md_bytes": 5641,
+   "assets": 5,
+   "description": "Operate the AI Wisdom Distillation System (智慧提炼系统) — a five-step closed-loop decision-support framework for deep analysis (investment research, industry study, tech-route comparison, strategy decision",
+   "keywords": [
+    "决策支持",
+    "智慧提炼",
+    "深度分析"
+   ],
+   "tested": false
+  },
+  {
+   "dir": "world-model",
+   "name": "world-model",
+   "version": "1.0.0",
+   "category": "engine",
+   "maturity": "tested",
+   "md_bytes": 7353,
+   "assets": 17,
+   "description": "Operate the Three-Yuan Super-Consciousness World Model — a triadic Φ/ℳ/Ψ architecture that combines multimodal perception (Φ), unified semantic encoding + mathematical physics modeling + causal infere",
+   "keywords": [
+    "JEPA",
+    "世界模型",
+    "潜空间",
+    "预测"
+   ],
+   "tested": true
+  },
+  {
+   "dir": "cogcheck",
+   "name": "cogcheck-五操作认知检查表",
+   "version": "1.0.0",
+   "category": "tool",
+   "maturity": "tested",
+   "md_bytes": 13576,
+   "assets": 6,
+   "description": "五操作认知检查表(可执行版) — 复杂类比/推理/分类/排序/等价 各配 anchor-kit 验证钩子: check-equivalence(同源三查) check-classification(阴性对照) check-ranking(多准则无锚) check-analogy(关系覆盖) check-reasoning(链式重算+置信度漂移) + audit 五操作自查。位于 /var/minis/shared/anchor-kit/cogcheck.py",
+   "keywords": [
+    "认知",
+    "类比",
+    "推理",
+    "分类",
+    "排序",
+    "等价",
+    "审计",
+    "自查",
+    "五操作"
+   ],
+   "tested": true
+  },
+  {
+   "dir": "systemone",
+   "name": "systemone-System One决策器官",
+   "version": "1.0.0",
+   "category": "tool",
+   "maturity": "tested",
+   "md_bytes": 13127,
+   "assets": 1,
+   "description": "System One 决策器官(Jev 无 key 正式替代) — 三原语 choice/score/noul + 概率 + 置信度, 一次前向并行 N 问题; TypeGuard 类型守卫(选项越界/量表越界/概率越界→修正+标注, 漏答→重试); SystemTwoGate 硬信号兜底(rules 表, 代码不会漏信号); 问责日志(ts/model/state/corrected)。位于 /var/minis/shared/digital-twin/systemone.py",
+   "keywords": [
+    "决策",
+    "Jev",
+    "System One",
+    "判断",
+    "概率",
+    "置信度",
+    "选择",
+    "抉择",
+    "noul",
+    "choice"
+   ],
+   "tested": true
+  },
+  {
+   "dir": "sci_anchor",
+   "name": "sci_anchor-OpenAlex科研验证通道",
+   "version": "1.0.0",
+   "category": "tool",
+   "maturity": "tested",
+   "md_bytes": 7212,
+   "assets": 1,
+   "description": "OpenAlex 科研验证通道(C层外部锚) — search(科研情报检索, 无key) / doi(DOI核查, doi:前缀自动重试) / author(作者统计) / claim(断言核查: 存在性+被引量级比较, 四行Verdict输出含边界依据)。位于 /var/minis/shared/anchor-kit/sci_anchor.py。★ shell 有网(OpenAlex 可达, 推翻旧记忆)",
+   "keywords": [
+    "科研",
+    "论文",
+    "DOI",
+    "被引",
+    "作者",
+    "学术",
+    "OpenAlex",
+    "查论文",
+    "文献"
+   ],
+   "tested": true
+  }
+ ]
+}
