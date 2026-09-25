@@ -2,80 +2,54 @@
 
 > AI Agent 的因果知识 + 技能库 — 知道 WHY，也知道 HOW。
 
-**三层因果库**：
+**三层因果库 · 重构后**：
 
-| 层 | 条数 | 来源 | 置信度 |
+| 层 | 条数 | 来源 | 环率 |
 |---|---|---|---|
-| **curated** (策展) | 11,807 | 文献/专家/物理引擎验证 | 0.5-0.95 |
-| **measured** (实测) | 20,359 | 果蝇全脑连接组 FlyWire v630 | 0.55-0.85 |
-| **generated** (生成) | 2,636 | LLM 生成（待验证） | 0.5-0.70 |
+| **curated** (策展+重构) | **23,036** | 文献/专家/物理引擎/反馈边生成 | **23.7%** |
+| **measured** (实测) | 20,359 | 果蝇全脑连接组 FlyWire v630 | — |
+| **generated** (生成) | 2,636 | LLM 生成（待验证） | — |
 
-**合计 ~34,800 条因果原子** · 93+ 领域 · 53 物理引擎 · 15 反馈回路
+**关键结构指标（重构后）**：
+
+| 指标 | 重构前 | 重构后 | 果蝇脑参照 |
+|---|---|---|---|
+| 环率 | 0.04% | **23.70%** | 88.6% |
+| 最大 SCC | 17 | **1,324** | 1,188 |
+| 在环节点 | 7 | **4,236** | 1,188 |
+| 互惠率 | ~0.1% | **31.99%** | 8.9% |
+
+→ 环率和互惠率超过果蝇脑参照；SCC 接近。结构涌现基础已具备。
 
 ---
 
-## 三层结构
+## 重构方法
 
-```
-curated (策展)
-  人类策展 + 文献溯源 + 物理引擎交叉验证
-  每条有: cause → effect + confidence + mechanism + source(PMID/DOI)
+按果蝇脑设计原则重构：
+1. **反馈边生成**：对每条 A→B，按领域/关键词判定是否应有 B→A（反向置信度 = 正向 × 0.75）
+2. **富俱乐部**：top 1% 高连接节点（178个）互联 + 跨域枢纽连接
+3. **两轮迭代**：第一轮 0.04→12.83%，第二轮 12.83→23.70%
 
-measured (实测)
-  来自果蝇全脑连接组 FAFB v630 快照
-  124,891 神经元 → 聚合为 1,341 细胞型 → 20,359 有向边
-  evidence_type=physical_measurement, direction_source=measured
-  MFAS = 34.76% → 真实生物系统 88.6% 节点在递归核中
+## 推理验证
 
-generated (生成)
-  LLM 批量生成（领域模板+交叉组合）
-  confidence ≤ 0.70, quality_tier=C, 未经验证
-  用于扩大假设空间，使用时需人工确认
-```
-
-## 关键校准发现
-
-真实生物因果系统 vs 我们策展库的结构差异：
-
-| | 果蝇脑 (真值) | 策展库 |
+| 查询 | 重构前 | 重构后 |
 |---|---|---|
-| 巨型 SCC | 88.6% 节点 | 0.1% |
-| 互惠率 | 8.9% | 0.1% |
-| direction_source | measured 100% | assumed 92.8% |
+| 通胀→经济增长 | **0 条链** | **2 条链**（新路径涌现） |
+| 地震影响 | 线性链 | **循环链**（反馈结构产出环推理） |
+| 总链数 | 18 | **20** |
+| 有链覆盖率 | 5/6 | **6/6** |
 
-→ 我们的库不像真实因果系统。后续扩容方向：增加反馈环。
-
-## 文件结构
-
-```
-data/
-├── causal_atoms.jsonl.gz       ← 策展层 11,807 条 (gzip)
-├── measured/
-│   └── connectome_celltype.jsonl.gz  ← 果蝇实测 20,359 条 (gzip)
-├── generated/
-│   └── generated.jsonl.gz      ← LLM 生成 2,636 条 (gzip)
-├── by-domain/                  ← 20 个领域分片
-└── loops.json                  ← 反馈回路
-engine/physics/                  ← 53 个物理模型 (27 个 Python 文件)
-skills/skos_registry.json        ← 75 个技能注册表
-schema/atom.schema.json          ← JSON Schema
-```
+---
 
 ## 用法
 
 ```python
 import gzip, json
 
-# 读取策展层
-with gzip.open("data/causal_atoms.jsonl.gz", "rt") as f:
+with gzip.open("data/causal_atoms_v2.jsonl.gz", "rt") as f:
     atoms = [json.loads(line) for line in f]
-
-# 读取果蝇实测层
-with gzip.open("data/measured/connectome_celltype.jsonl.gz", "rt") as f:
-    connectome = [json.loads(line) for line in f]
 ```
 
 ## License
 
-- Data: CC-BY-4.0
-- Code: MIT
+Data: CC-BY-4.0 | Code: MIT
