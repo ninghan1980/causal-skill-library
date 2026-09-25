@@ -1,0 +1,382 @@
+{
+  "version": "1.0",
+  "description": "因果库模块注册表: 原子组合性层(模块=原子集合, 涌现=模块整体性质)",
+  "modules": [
+    {
+      "id": "immune_response",
+      "name": "免疫应答链",
+      "domain": "免疫学",
+      "function": "防御",
+      "input": "病原体入侵/疫苗接种",
+      "output": "特异性免疫",
+      "emergence": "群体免疫(模块整体才有,单条原子无此能力)",
+      "composed_of": [
+        {
+          "cause": "疫苗接种",
+          "effect": "特异性抗体产生"
+        },
+        {
+          "cause": "特异性抗体产生",
+          "effect": "保护性免疫"
+        },
+        {
+          "cause": "群体免疫达到阈值",
+          "effect": "传染病传播阻断"
+        },
+        {
+          "cause": "免疫缺陷",
+          "effect": "结核感染风险增加"
+        },
+        {
+          "cause": "免疫检查点抑制",
+          "effect": "T细胞活化增加"
+        },
+        {
+          "cause": "CD4+T细胞减少",
+          "effect": "免疫缺陷"
+        }
+      ],
+      "atoms": [
+        "710c664b6cee",
+        "56067fc3b7b5",
+        "4d9edd77bba5",
+        "adaaf890f862",
+        "4cfa1ac3db1d",
+        "e0c0b4b41960"
+      ],
+      "missing": []
+    },
+    {
+      "id": "carnot_engine",
+      "name": "卡诺热机链",
+      "domain": "热力学",
+      "function": "热功转换",
+      "input": "高温热源",
+      "output": "机械功",
+      "emergence": "效率上限(卡诺极限是模块整体性质)",
+      "composed_of": [
+        {
+          "cause": "热机",
+          "effect": "热转化为功"
+        },
+        {
+          "cause": "卡诺效率",
+          "effect": "最高热机效率"
+        },
+        {
+          "cause": "卡诺效率提高",
+          "effect": "热机效率接近理论极限"
+        },
+        {
+          "cause": "制冷机",
+          "effect": "逆向热机"
+        }
+      ],
+      "atoms": [
+        "e53af1fd3ab5",
+        "59b719ff451b",
+        "2c8dadeac698",
+        "b42d329a0f08"
+      ],
+      "missing": []
+    },
+    {
+      "id": "evolution",
+      "name": "进化机制链",
+      "domain": "进化生物学",
+      "function": "适应",
+      "input": "基因变异",
+      "output": "有利性状积累",
+      "emergence": "适应性(变异+选择整体涌现)",
+      "composed_of": [
+        {
+          "cause": "基因突变",
+          "effect": "表型变异产生"
+        },
+        {
+          "cause": "自然选择",
+          "effect": "有利变异积累"
+        },
+        {
+          "cause": "病原体变异",
+          "effect": "免疫逃逸可能"
+        }
+      ],
+      "atoms": [
+        "a09254c8922a",
+        "19f5ca2c80a5",
+        "5b34363fb7ba"
+      ],
+      "missing": []
+    },
+    {
+      "id": "market_liquidity",
+      "name": "市场流动性链",
+      "domain": "经济学",
+      "function": "资金传导",
+      "input": "央行降准",
+      "output": "融资成本下降",
+      "emergence": "流动性螺旋(模块整体性质)",
+      "composed_of": [
+        {
+          "cause": "银行可贷资金增加",
+          "effect": "市场流动性充裕"
+        },
+        {
+          "cause": "市场流动性充裕",
+          "effect": "企业融资成本下降"
+        },
+        {
+          "cause": "央行降息",
+          "effect": "股票吸引力上升"
+        }
+      ],
+      "atoms": [
+        "hub_经济学_0_2",
+        "hub_间接因果_0_3",
+        "a99315414b65"
+      ],
+      "missing": []
+    },
+    {
+      "id": "fx_rate",
+      "name": "汇率传导链",
+      "domain": "经济学",
+      "function": "国际收支",
+      "input": "汇率变动",
+      "output": "进出口再平衡",
+      "emergence": "贸易平衡(模块整体性质)",
+      "composed_of": [
+        {
+          "cause": "人民币升值",
+          "effect": "出口商品竞争力下降"
+        },
+        {
+          "cause": "出口竞争力下降",
+          "effect": "出口企业利润下滑"
+        },
+        {
+          "cause": "人民币升值",
+          "effect": "进口商品价格下降"
+        },
+        {
+          "cause": "进口商品价格下降",
+          "effect": "国内通胀压力缓解"
+        }
+      ],
+      "atoms": [
+        "c5f0f24297e9",
+        "074cf0c2e345",
+        "8c74b8c1a001",
+        "0588b152c850"
+      ],
+      "missing": []
+    },
+    {
+      "id": "vision_pathway",
+      "name": "视觉病变链",
+      "domain": "医学",
+      "function": "视觉",
+      "input": "糖尿病病程",
+      "output": "视力保护/下降",
+      "emergence": "失明风险(病程累积的整体性质)",
+      "composed_of": [
+        {
+          "cause": "糖尿病病程超过10年",
+          "effect": "视网膜病变"
+        },
+        {
+          "cause": "视网膜病变",
+          "effect": "视力下降"
+        }
+      ],
+      "atoms": [
+        "914ba4da794e",
+        "efbc94514071"
+      ],
+      "missing": []
+    },
+    {
+      "id": "photosynthesis",
+      "name": "光合作用链",
+      "domain": "生物学",
+      "function": "固碳",
+      "input": "光照",
+      "output": "有机物合成",
+      "emergence": "初级生产力(模块整体性质)",
+      "composed_of": [
+        {
+          "cause": "光照充足",
+          "effect": "浮游植物光合作用"
+        },
+        {
+          "cause": "光照不足",
+          "effect": "光合作用受限制"
+        }
+      ],
+      "atoms": [
+        "9d2e88ce91eb",
+        "c2abf8355654"
+      ],
+      "missing": []
+    },
+    {
+      "id": "coagulation",
+      "name": "凝血抗凝链",
+      "domain": "生理学",
+      "function": "止血",
+      "input": "血管损伤",
+      "output": "凝块形成/溶解",
+      "emergence": "止血与抗凝的动态平衡",
+      "composed_of": [
+        {
+          "cause": "维生素K",
+          "effect": "凝血因子合成"
+        },
+        {
+          "cause": "血小板",
+          "effect": "凝血功能"
+        },
+        {
+          "cause": "肝素",
+          "effect": "抗凝血酶激活"
+        }
+      ],
+      "atoms": [
+        "05fbf8f825ae",
+        "fdca2dce9bfd",
+        "201286cf3db0"
+      ],
+      "missing": []
+    },
+    {
+      "id": "network_bandwidth",
+      "name": "网络带宽链",
+      "domain": "技术",
+      "function": "信息传输",
+      "input": "带宽增加",
+      "output": "应用流畅",
+      "emergence": "网络效应(整体性质)",
+      "composed_of": [
+        {
+          "cause": "光缆铺设",
+          "effect": "网络带宽增加"
+        },
+        {
+          "cause": "网络带宽增加",
+          "effect": "高清视频流畅"
+        }
+      ],
+      "atoms": [
+        "3b8d2d65e12b",
+        "10d8a2413961"
+      ],
+      "missing": []
+    }
+  ],
+  "module_edges": [
+    {
+      "cause": "光合作用链",
+      "effect": "大气氧含量积累",
+      "matched": false,
+      "id": "m_cf7c530cf714"
+    },
+    {
+      "cause": "大气氧积累",
+      "effect": "需氧呼吸演化",
+      "matched": false,
+      "id": "m_057745c7333c"
+    },
+    {
+      "cause": "市场流动性链",
+      "effect": "资源配置效率变化",
+      "matched": false,
+      "id": "m_dd9d0b2ef2e7"
+    },
+    {
+      "cause": "进化机制链",
+      "effect": "生物多样性形成",
+      "matched": false,
+      "id": "m_3ad98c9aa368"
+    },
+    {
+      "cause": "免疫应答链",
+      "effect": "群体健康水平",
+      "matched": false,
+      "id": "m_2429b870f2f9"
+    },
+    {
+      "cause": "卡诺热机链",
+      "effect": "蒸汽机效率上限",
+      "matched": false,
+      "id": "m_2ef7cba422cb"
+    },
+    {
+      "cause": "蒸汽机效率上限",
+      "effect": "工业革命热约束",
+      "matched": false,
+      "id": "m_ea47764d7fa9"
+    },
+    {
+      "cause": "工业革命",
+      "effect": "化石能源依赖",
+      "matched": false,
+      "id": "m_2615ed28fcfb"
+    },
+    {
+      "cause": "汇率传导链",
+      "effect": "国际贸易平衡",
+      "matched": false,
+      "id": "m_f7155b6617de"
+    },
+    {
+      "cause": "网络带宽链",
+      "effect": "信息传播加速",
+      "matched": false,
+      "id": "m_ed166434ea5c"
+    },
+    {
+      "cause": "信息传播加速",
+      "effect": "全球化进程",
+      "matched": false,
+      "id": "m_5da55161d489"
+    },
+    {
+      "cause": "凝血抗凝链",
+      "effect": "外科手术可行性",
+      "matched": false,
+      "id": "m_6d2ec2ec0616"
+    },
+    {
+      "cause": "疫苗技术",
+      "effect": "传染病死亡率下降",
+      "matched": false,
+      "id": "m_03a2e0bf2bf7"
+    },
+    {
+      "cause": "传染病死亡率下降",
+      "effect": "人口增长",
+      "matched": false,
+      "id": "m_ef4195b4206e"
+    },
+    {
+      "cause": "人口增长",
+      "effect": "资源需求压力",
+      "matched": false,
+      "id": "m_7ceff11b7670"
+    },
+    {
+      "cause": "视觉病变链",
+      "effect": "糖尿病失明负担",
+      "matched": false,
+      "id": "m_da447654598e"
+    },
+    {
+      "cause": "劳动力市场链",
+      "effect": "消费能力变化",
+      "matched": false,
+      "id": "m_bf8f846303a0"
+    }
+  ],
+  "generated": "2026-09-25"
+}
