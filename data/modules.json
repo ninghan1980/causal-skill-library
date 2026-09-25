@@ -272,6 +272,47 @@
         "10d8a2413961"
       ],
       "missing": []
+    },
+    {
+      "id": "calculus_system",
+      "name": "微积分体系",
+      "domain": "数学",
+      "function": "连续变化的统一描述(极限→导数→积分→微分方程)",
+      "emergence": "从极限到积分的统一框架(涌现:描述变化与累积的数学语言)",
+      "composed_of": [
+        {
+          "cause": "函数在某点附近",
+          "effect": "极限值定义为逼近值"
+        },
+        {
+          "cause": "函数在某点可导",
+          "effect": "变化率定义为极限"
+        },
+        {
+          "cause": "极限为0/0或∞/∞型",
+          "effect": "可对分子分母分别求导再求极限"
+        },
+        {
+          "cause": "函数在区间连续",
+          "effect": "定积分等于原函数在端点的差"
+        },
+        {
+          "cause": "泰勒级数",
+          "effect": "f(x)=\\sum_{n=0}^{\\infty}\\frac{f^{(n)}(a)}{n!}(x-a)^n"
+        },
+        {
+          "cause": "一阶线性微分方程",
+          "effect": "y'+P(x)y=Q(x)"
+        },
+        {
+          "cause": "二阶常系数齐次",
+          "effect": "y''+py'+qy=0"
+        },
+        {
+          "cause": "拉普拉斯方程",
+          "effect": "\\nabla^2 u=0"
+        }
+      ]
     }
   ],
   "module_edges": [
