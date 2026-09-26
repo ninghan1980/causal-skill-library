@@ -1,0 +1,86 @@
+{
+  "framework": "social_health_monitoring",
+  "version": "1.0",
+  "date": "2026-09-26",
+  "methodology": "硬滞后指标(出生/结婚)+先行指标(避险/储蓄/灵活时薪)联读; 硬行为指标权重>软调查指标",
+  "indicators": [
+    {
+      "name": "出生率",
+      "value": "6.77‰",
+      "year": 2024,
+      "trend": "低位微反弹(龙年效应)",
+      "signal": "red_to_yellow",
+      "tier": "hard_lagging"
+    },
+    {
+      "name": "自然增长率",
+      "value": "-0.99‰",
+      "year": 2024,
+      "trend": "连续负增长",
+      "signal": "red",
+      "tier": "hard_lagging"
+    },
+    {
+      "name": "结婚登记",
+      "value": "610.6万对(-20.5%)",
+      "year": 2024,
+      "trend": "1978年以来最低",
+      "signal": "red_strong",
+      "tier": "hard_lagging"
+    },
+    {
+      "name": "青年失业率(16-24不含在校生)",
+      "value": "18.9%",
+      "year": 2025,
+      "trend": "统计调整以来新高",
+      "signal": "red_strong",
+      "tier": "leading"
+    },
+    {
+      "name": "国考报名",
+      "value": "371.8万人(98:1)",
+      "year": 2026,
+      "trend": "双创历史纪录(招录缩减)",
+      "signal": "red",
+      "tier": "leading"
+    },
+    {
+      "name": "社会消费品零售",
+      "value": "50.1万亿(+3.7%)",
+      "year": 2025,
+      "trend": "名义放缓,CPI近零",
+      "signal": "yellow",
+      "tier": "coincident"
+    },
+    {
+      "name": "居民储蓄/提前还贷",
+      "value": "高位堆积+还贷潮",
+      "year": 2025,
+      "trend": "防御性资产负债表",
+      "signal": "yellow_to_red",
+      "tier": "leading"
+    },
+    {
+      "name": "自杀率",
+      "value": null,
+      "year": null,
+      "trend": "无公开数据",
+      "signal": "no_data",
+      "tier": "hard_lagging"
+    }
+  ],
+  "diagnosis": {
+    "score": 37,
+    "level": "yellow_deep",
+    "level_cn": "黄色偏深预警",
+    "core": "预期转弱负反馈螺旋确认成形, 不可逆损伤正在积累",
+    "key_warning": "结婚40年新低→2026-2028出生人口大概率再下台阶",
+    "rule_triggered": "≥4指标同向恶化→黄色预警(已触发)",
+    "data_gap": "自杀率/心理健康指标缺失, 该栏为推断非实测"
+  },
+  "source": [
+    "国家统计局2024/2025统计公报",
+    "国考官方公告",
+    "搜索摘要(二手未逐条核对)"
+  ]
+}
