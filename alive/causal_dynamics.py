@@ -194,7 +194,7 @@ def main():
         "degenerate": degenerate,
         "is_computation": bool(L1 and L3 and L2 is True and not degenerate),
         "note": ("★ 退化了：激活集只剩起点，判据一律不算数" if degenerate else
-                 "三条全满足=计算；缺 L2 未测" if L2 is None else
+                 "★ 只测了 L1/L3，L2 未测 → 不足以判定「计算」" if L2 is None else
                  "计算" if (L1 and L3 and L2) else
                  "震荡（非平凡但塌陷/无选择性）" if L1 else "平凡（塌成常数）"),
     }
